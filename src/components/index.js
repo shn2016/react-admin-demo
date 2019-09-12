@@ -6,6 +6,7 @@ import Loadable from 'react-loadable';
 import Loading from './widget/Loading';
 import BasicForm from './forms/BasicForm';
 import BasicTable from './tables/BasicTables';
+import DemoTable from './tables/Demotable';
 import AdvancedTable from './tables/AdvancedTables';
 import AsynchronousTable from './tables/AsynchronousTable';
 import Echarts from './charts/Echarts';
@@ -59,4 +60,5 @@ export default {
     Cssmodule,
     MapUi,
     QueryParams,
+    DemoTable,
 };
